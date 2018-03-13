@@ -13,7 +13,7 @@ def countdown_with_sleep(interger)
   counter = interger 
   while interger > 0 
   puts "#{interger} SECOND(S)!"
-  sleep(5.sec)
+  sleep(5)
   interger -= 1
 end 
   return "HAPPY NEW YEAR!"
